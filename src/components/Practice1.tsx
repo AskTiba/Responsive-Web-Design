@@ -7,12 +7,9 @@ const practice1 = () => {
         </h1>
         <p className="mt-5">
           Lorem ipsum dolor sit amet consectetur,{" "}
-          <span className="text-[#ffd700] font-medium">adipisicing elit</span>.
-          Soluta quia ad praesentium delectus dolore accusamus. Consectetur
-          placeat mollitia,{" "}
-          <strong className="bg-[yellow] text-[#000] px-2 mr-1">
-            quo id dolores
-          </strong>
+          <a className="">adipisicing elit</a>. Soluta quia ad praesentium
+          delectus dolore accusamus. Consectetur placeat mollitia,{" "}
+          <a className="">quo id dolores</a>{" "}
           llam necessitatibus quis doloribus.
         </p>
         <p className="links mt-5">
