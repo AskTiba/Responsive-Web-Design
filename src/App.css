@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 header h1 {
-  font-weight: 500;
+  font-weight: 200;
   font-size: 48px;
   font-family: "Rubik Glitch Pop", system-ui;
 }
 h1,
 h2 {
   margin-top: 0;
+  color: tomato;
 }
 h1 {
   font-size: 24px;
@@ -22,8 +23,9 @@ section p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-a {
+p a {
   font-weight: 700;
+  color: #ff8000;
 }
 a:hover,
 a:focus {
@@ -33,12 +35,12 @@ a:focus {
 .button {
   background-color: #ffe000;
   color: #000;
-  padding: 7px;
+  padding: 7px 16px;
   border-radius: 4px;
 }
 header,
 section {
-  padding: 50px;
+  padding: 20px;
 }
 header {
   background-color: #ffe600;
