@@ -77,3 +77,9 @@ header {
 .section-two h2 {
   font-weight: 700;
 }
+.wrapper {
+  margin: 0 auto;
+  width: 50%;
+  border: 2px;
+  border: #567389;
+}
