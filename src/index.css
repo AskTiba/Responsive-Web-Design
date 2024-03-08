@@ -2,9 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-.wrapper {
-  margin: 0 auto;
-  width: 50%;
-  border: 2px;
-  border: #567389;
+html {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1rem;
+}
+nav a {
+  padding: 0.25em 0;
+  color: #787878;
+  text-underline-offset: 4px;
+  /* text-decoration-thickness: 2px; */
+}
+
+nav a:hover,
+nav a:focus {
+  color: #1792d2;
+}
+
+.container {
+  width: 92%;
+  border: 1px solid magenta;
+}
+
+@media (max-width: 675px) {
+  .container {
+    flex-direction: column;
+  }
+  header{
+    text-align: center;
+  }
+  nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
