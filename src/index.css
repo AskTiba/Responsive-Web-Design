@@ -8,16 +8,7 @@ body {
   margin: 0;
   background: pink;
 }
-@media (min-width: 480px) {
-  body{
-    background: #32cd32;
-  }
-}
-@media (min-width: 640px) {
-  body{
-    background: #ffd700;
-  }
-}
+
 /* Typography */
 h1,
 h2 {
@@ -36,7 +27,7 @@ p {
 }
 /* Layout */
 .container {
-  width: 95%;
+  width: 92%;
   max-width: 980px;
   margin: 0 auto;
 }
@@ -62,4 +53,18 @@ img {
   background: #000;
   color: #fff;
   padding: 1em;
+}
+
+@media (max-width: 640px) {
+  .columns {
+    flex-direction: column;
+  }
+  .col-1,
+  .col-2,
+  .col-3 {
+    width: 100%;
+  }
+  .col-dark {
+    margin-top: 20px;
+  }
 }
