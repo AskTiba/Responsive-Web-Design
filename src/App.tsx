@@ -1,18 +1,13 @@
-import "./App.css";
-import Exercise2 from "./components/Exercise2";
-// import Exercise1 from "./components/Exercise1";
-// import Practice1 from "./components/Practice1";
-// import Practice2 from "./components/Practice2";
+import HomePage from "./components/HomePage";
+import Navigation from "./components/Navigation";
 
-function App() {
+const App = () => {
   return (
     <>
-      {/* <Practice1 /> */}
-      {/* <Exercise1/> */}
-      {/* <Practice2 /> */}
-      <Exercise2/>
+      <Navigation />
+      <HomePage />
     </>
   );
-}
+};
 
 export default App;
